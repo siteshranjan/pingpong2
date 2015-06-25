@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="pingpong2.exe" version="1.0.0.0" publicKeyToken="fc802c6ae066261d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="pingpong2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="pingpong2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pingpong2.exe" size="11264">
+      <assemblyIdentity name="pingpong2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>g+1X6Vt0JPCMnNHEeT1q56F1j9ni21nPj1npwiXYTsY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="pingpong2.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=sitesh\sitesh ranjan" issuerKeyHash="1a1bfba723c4355a82d8167e9a9cc1e8e19352e4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dRuvqEQIs1qf4ujfbBlobm7pzgoR+69x97Ts4CMfsEk=</DigestValue></Reference></SignedInfo><SignatureValue>LP86gWWrAdWLsv9n30eVO/1/CagYyHTQ/5H7VW5mLXjMe+18nMI2sf/q5xbpzeqntFsnENIE+lE0XwJD71UC16WuTU0ewdSbwSFWV+oOVGHteOepeJ0ya6u+1+G6Asuzqnhuov1e+3iD7sPU4vlLDxMsPSO1D7XXSheo9PwhB2g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qbxVKmbXzmVeMy9pqjS6J/A3Q2Ve6+Io5oWacWYEWiOKVZTc4Ff/SsPXnJKUpr91tC4p9NpjAcnIt+jpqeE+g+iLya14vUcibPYiGpJeumPWzB6JYI4GBnFPDFMKKMMVANp8C2DkAeF2Gk22JsAk39JHZRY5hXOjT7iFnDAP22k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="49b01f23e0ecb4f771affb110acee96e6e68196cdfe8e29f5ab30844a8af1b75" Description="" Url=""><as:assemblyIdentity name="pingpong2.exe" version="1.0.0.0" publicKeyToken="fc802c6ae066261d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=sitesh\sitesh ranjan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wrcQyrKKlQnWuxboxU+wJlNzu9Fu4gBFp9jbDApyNko=</DigestValue></Reference></SignedInfo><SignatureValue>SMh0um+6w+6EkOA0lG4GGlm5yv8Cngbe5qVQjncGEY9lUIu8HWI36ORgnQwbZ9HTkSZqWKuJmiINtI13ULAe80UNZA9Mi/17lu4ew59GZW2LeD6jzy2x1CxPV7CcD1aUoh2a0s6Ec+Q6+0oDR0JJ6ImVoiYDSTd3A4mSw71Vo4M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qbxVKmbXzmVeMy9pqjS6J/A3Q2Ve6+Io5oWacWYEWiOKVZTc4Ff/SsPXnJKUpr91tC4p9NpjAcnIt+jpqeE+g+iLya14vUcibPYiGpJeumPWzB6JYI4GBnFPDFMKKMMVANp8C2DkAeF2Gk22JsAk39JHZRY5hXOjT7iFnDAP22k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQG9DWplqC0IFJSRK1ZRUoiTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAcwBpAHQAZQBzAGgAXABzAGkAdABlAHMAaAAgAHIAYQBuAGoAYQBuMB4XDTE0MDgyODE1NDM0NloXDTE1MDgyODIxNDM0NlowMzExMC8GA1UEAx4oAHMAaQB0AGUAcwBoAFwAcwBpAHQAZQBzAGgAIAByAGEAbgBqAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqbxVKmbXzmVeMy9pqjS6J/A3Q2Ve6+Io5oWacWYEWiOKVZTc4Ff/SsPXnJKUpr91tC4p9NpjAcnIt+jpqeE+g+iLya14vUcibPYiGpJeumPWzB6JYI4GBnFPDFMKKMMVANp8C2DkAeF2Gk22JsAk39JHZRY5hXOjT7iFnDAP22kCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCQnZZPup9kK3XajjfEjLXVHBCBqh1njsSgXSfYeZ+HmlGVAyMsgGejw/or8o45G9dmkdbxxej9/xS5x3aMS7zkXjRN89YTa/+M8X27DTH089LNEM8F4X8wZGCsaDgmm8HIC8LvarJBHi7mNoxIK51srNg1GWTflT7rDZxUQRbm0Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
